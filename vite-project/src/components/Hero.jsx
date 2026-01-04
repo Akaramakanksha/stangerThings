@@ -81,6 +81,9 @@ const Hero = () => {
         <motion.div className="left" variants={item}>
           <h1 className="st-title">
             STRANGER<br />THINGS
+            <span style={{ fontSize: '18px', display: 'block'}}>
+              Fan Project
+            </span>
           </h1>
           <motion.p className="st-desc" variants={item}>
             When the lights begin to flicker and reality bends,
